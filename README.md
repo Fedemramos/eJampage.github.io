@@ -22,3 +22,4 @@ Landing Page de venta de productos con toda su informacion, comentarios y actual
 
 - Lista de tecnologías y herramientas utilizadas en el proyecto.
 - HTML, JavaScript, Tailwind CSS.
+![Captura de pantalla 2024-05-28 151253](https://github.com/Fedemramos/eJampage.github.io/assets/114125535/d9979ab4-5939-4a0a-8c95-19b121b2b285)
