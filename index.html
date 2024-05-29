@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Producto</title>
+    
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-white">
+    <!-- Barra de datos -->
+    <div class="bg-gray-900 text-white py-2 text-center font-semibold">
+        <div id="scrolling-wrapper" class="scrolling-wrapper text-gray-300 mx-auto flex justify-start md:justify-around text-sm max-w-screen-xl space-x-8 overflow-x-auto whitespace-nowrap">
+            <span class="p-2  text-xs">30-DAY SATISFACTION GUARANTEE</span>
+            <span class="p-2  text-xs">FREE DELIVERY ON ORDERS OVER $40.00</span>
+            <span class="p-2  text-xs">50,000+ HAPPY CUSTOMERS</span>
+            <span class="p-2  text-xs">100% MONEY BACK GUARANTEE</span>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <nav class="bg-white p-6 text-black">
+        <div class="container mx-auto flex justify-between mt-3 max-w-6xl">
+            <div class="flex items-center">
+                <img src="/static/image/logo.png" alt="logo" class="rounded-lg w-24 md:w-40 sm:w-48">
+            </div>
+            <div class="flex items-center space-x-4">
+                <img src="/static/image/logo1.png" alt="logo" class="rounded-lg w-14 md:w-20 sm:w-16">
+                <img src="/static/image/logo2.png" alt="logo" class="rounded-lg w-14 md:w-20 sm:w-16">
+            </div>
+        </div>
+    </nav>
+    <!-- Títulos centrados -->
+    <div class="bg-white flex justify-center items-center p-5">
+        <div>
+            <h1 class="text-center text-3xl md:text-5xl font-semibold">Wait ! your order in progress.</h1>
+            <h2 class="text-center text-lg md:text-2xl text-gray-600 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
+        </div>
+    </div>
+    <!-- Pasos de compra -->
+    <div class="container mx-auto my-4 max-w-6xl px-4 md:px-0 bg-whit">
+        <div class="flex flex-wrap justify-between">
+            <div class="flex flex-col items-center mb-1 md:flex-row">
+                <div class="mr-0 mb-1 md:mr-4 md:mb-0">
+                    <object data="/static/svg/check.svg" type="image/svg+xml"></object>
+                </div>
+                <span class="text-center md:text-left text-xs md:text-base">
+                    <span class="hidden md:inline">Step 1: </span>Cart Review
+                </span>
+            </div>
+            <div class="flex flex-col items-center mb-4 md:flex-row">
+                <div class="mr-0 mb-2 md:mr-4 md:mb-0">
+                    <object data="/static/svg/check.svg" type="image/svg+xml"></object>
+                </div>
+                <span class="text-center md:text-left text-xs md:text-base">
+                    <span class="hidden md:inline">Step 2: </span>Checkout
+                </span>
+            </div>
+            <div class="flex flex-col items-center mb-4 md:flex-row">
+                <div class="mr-0 mb-2 md:mr-4 md:mb-0">
+                    <object data="/static/svg/tres.svg" type="image/svg+xml"></object>
+                </div>
+                <span class="text-center md:text-left text-xs md:text-base">
+                    <span class="hidden md:inline">Step 3: </span><strong>Special Offer</strong>
+                </span>
+            </div>
+            <div class="flex flex-col items-center mb-4 md:flex-row">
+                <div class="mr-0 mb-2 md:mr-4 md:mb-0">
+                    <object data="/static/svg/four.svg" type="image/svg+xml"></object>
+                </div>
+                <span class="text-center md:text-left text-xs md:text-base">
+                    <span class="hidden md:inline">Step 4: </span>Confirmation
+                </span>
+            </div>
+        </div>
+    </div>
+<!-- Sección del Producto -->
+    <div class="container mx-auto bg-gray-50 p-4 rounded-lg shadow-lg max-w-6xl">
+        <div class="flex flex-col md:flex-row">
+            <!-- Sección del Producto en Dispositivos Pequeños -->
+            <div class="w-full md:w-1/2 hidden md:block">
+                <div class="flex justify-center">
+                    <img src="/static/image/product.png" alt="Clarifion Air Ionizer" class="rounded-2xl p-4">
+                </div>
+                <!-- Caja de comentarios -->
+                <div class="bg-white rounded-lg shadow p-6 mt-8 mx-5">
+                    <div class="flex items-center">
+                        <img src="/static/image/user.png" alt="Customer" class="rounded-full w-12 h-12">
+                        <div class="ml-4">
+                            <p class="text-xs">⭐⭐⭐⭐⭐</p>
+                            <h3 class="text-lg font-semibold">Ken T. <samp class="text-sm text-green-500 font-sans">✅ Verified Customer</samp></h3>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-gray-700">"As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful."</p>
+                </div>
+            </div>
+            <!-- Información del producto -->
+            <div class="w-full md:w-1/2 mt-6 md:mt-0 md:ml-8 mr-6">
+                <div class="text-center md:text-left"> <!-- Contenedor centrado para dispositivos pequeños -->
+                    <h2 class="text-3xl text-black mt-4">
+                        <span class="text-blue-500">ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only<span class="text-blue-500">$14 Each</span>
+                    </h2>
+                    <p class="text-4xl">($84.00 Total!)</p>
+                </div>
+                <div class="flex items-center mt-6">
+                    <img src="/static/image/product2.png" width="100px" height="100px" alt="Clarifion" class="bg-blue-400 rounded-lg">
+                    <div class="ml-4">
+                        <div class="flex items-center">
+                            <h3 class="text-lg font-semibold mr-2">Clarifion Air Ionizer</h3>
+                            <p class="text-gray-600"><span class="line-through">$180</span> <span class="text-blue-600"><strong>$84</strong></span></p>
+                        </div>
+                        <p class="text-sm">⭐⭐⭐⭐⭐</p>
+                        <p class="text-xs"><span class="text-xs pr-5 shadow-blue-600">🔵</span> 12 left in Stock</p>
+                        <p class="text-gray-700 text-xs">Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</p>
+                    </div>
+                </div>
+                <ul class="list-disc list-inside mt-4 text-gray-700">
+                    <p class="p-2">✔️ Negative Ion Technology may <strong>help with allergens</strong></p>
+                    <p class="p-2">✔️ Designed <strong>for air rejuvenation</strong></p>
+                    <p class="p-2">✔️ <strong>Perfect for every room</strong> in all types of places</p>
+                </ul>
+                <div class="bg-blue-100 text-black text-center font-semibold px-6 py-2 rounded-lg mt-4">Save <span class="text-blue-600">53%</span> and get <span class="text-blue-600">extra Clarifision</span> for only<span class="text-blue-600">$14 Each.</span></div>
+                <button class="bg-green-500 text-white text-center px-6 py-2 rounded-full mt-8 hover:bg-green-400 w-full">YES - CLAIM MY DISCOUNT ⇨</button>
+                
+                <div class="flex flex-col sm:flex-row items-center justify-between text-xs bg-gray-100 p-4 mt-4 rounded-lg">
+                    <div class="flex items-center space-x-4 mb-4 sm:mb-0">
+                        <p class="text-gray-700">Free Shipping</p>
+                        <span class="text-gray-500">|</span>
+                        <p class="text-gray-700">Secure 256-Bit SSL Encryption</p>
+                        <span class="text-gray-500">|</span>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <img src="https://via.placeholder.com/40x25" alt="Visa" class="w-8 sm:w-auto">
+                        <img src="https://via.placeholder.com/40x25" alt="MasterCard" class="w-8 sm:w-auto">
+                        <img src="https://via.placeholder.com/40x25" alt="Amex" class="w-8 sm:w-auto">
+                        <img src="https://via.placeholder.com/40x25" alt="Paypal" class="w-8 sm:w-auto">
+                    </div>
+                </div>
+                
+                
+                <p class="text-red-500 mt-4 cursor-pointer font-bold text-center">NO THANKS, I DON'T WANT THIS.</p>
+                <!-- Nueva Caja -->
+                <div class="rounded-lg p-6 mt-2 flex">
+                    <img src="/static/image/garantia.png" alt="Icon" class="w-20 h-20 mr-4">
+                    <div>
+                        <p class="text-gray-600">If you are not completely thrilled with your Clarifion - We have a <strong> 30 day satisfaction guarantee</strong>. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-gray-800 dark:bg-gray-800 mt-6 mx-auto max-w-full p-4 md:flex md:items-center md:justify-between">
+        <span class="flex flex-col md:flex-row items-center mt-1 text-sm text-gray-200 dark:text-gray-400 sm:mt-0">
+            © Copyright (c) 2023 | Clarifionsupport@clarifion.com.
+        </span>
+        <ul class="flex flex-col md:flex-row items-center mt-3 text-sm text-gray-200 dark:text-gray-400 sm:mt-0">
+            <li>
+                <a class="text-gray-200 me-4 md:me-6">Secure 256-bit SSL encryption.</a>
+            </li>
+        </ul>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="src/files/js/autoscroll.js"></script>
+    <script>
+        // Llama a la función autoScrollText si el ancho de la pantalla es menor que cierto valor (ajustable)
+        window.addEventListener('DOMContentLoaded', function () {
+            const screenWidth = window.innerWidth;
+            const breakpoint = 768; // Puedes ajustar este valor según tus necesidades
+            if (screenWidth < breakpoint) {
+                autoScrollText();
+            }
+        });
+    </script>
+</body>
+</html>
